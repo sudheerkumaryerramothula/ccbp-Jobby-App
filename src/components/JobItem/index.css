@@ -1,0 +1,66 @@
+.jobs-list-items {
+  overflow: auto;
+  color: #fff;
+  background-color: #272727;
+  width: 850px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.postion-text {
+  font-size: 20px;
+}
+
+.star {
+  color: yellow;
+  margin: 0px;
+}
+.company-logo {
+  width: 50px;
+}
+
+.ratings-container {
+  display: flex;
+  align-items: c;
+  gap: 10px;
+}
+
+.company-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.position {
+  margin-left: 10px;
+}
+
+.rating {
+  margin: 0px;
+}
+.job-type-details,
+.location-details {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.range-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-1 {
+  display: flex;
+  gap: 20px;
+}
+
+.link-for-job-details {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.card-hr {
+  margin: 0px;
+}

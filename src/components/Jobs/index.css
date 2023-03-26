@@ -1,0 +1,162 @@
+.jobs-container {
+  background-color: #000;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.profile-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 224px;
+  height: 190px;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-name {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.profile-bio {
+  font-size: 15px;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+
+.filter-title {
+  color: #fff;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  gap: 7px;
+  margin: 0px;
+  align-items: center;
+}
+
+.employment-types {
+  margin-top: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.search-container {
+  border: 1px solid #7e858e;
+  width: 300px;
+  background-color: transparent;
+}
+
+.search {
+  width: 263px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.job-items-container {
+  margin-left: 30px;
+}
+
+.search-button {
+  background-color: #475569;
+  color: #fff;
+  margin: 0px;
+  width: 30px;
+  height: 25px;
+}
+
+.search-icon {
+  text-align: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding-left: 400px;
+}
+
+.profile-failure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.retry-btn {
+  background-color: #6366f1;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.type {
+  color: #fff;
+}
+
+.no-jobs-found {
+  margin-top: 80px;
+  margin-left: 200px;
+  color: #fff;
+  text-align: center;
+}
+
+.no-jobs {
+  width: 400px;
+}
+
+.profile-loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.api-call-error {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.api-call-error-heading {
+  text-align: center;
+  width: 500px;
+  margin-bottom: 0px;
+}
+
+.api-call-error-img {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.api-call-error-desc {
+  text-align: center;
+  font-size: 15px;
+  width: 500px;
+}
+
+.retry-btn {
+  margin-left: 200px;
+}
